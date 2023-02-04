@@ -1,3 +1,3 @@
 *.r linguist-detectable=false
 *.a linguist-detectable=false
-*.p linguist-detectable=false
+*.p pascal 
