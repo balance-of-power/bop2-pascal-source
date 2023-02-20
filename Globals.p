@@ -46,9 +46,13 @@ TYPE
 	DorkArr 	= ARRAY [0..271] OF Integer;
 	ScoreArr 	= ARRAY [1..10] OF Integer;
 	DInteger 	= ARRAY [1..2] OF Integer;
+
+	{ Two-Dimensional Integer Array}
 	TwoDArr		= ARRAY[1..80] OF ARRAY[1..80] OF Integer;
 	TwoDPtr		= ^TwoDArr;
 	TwoDHndl	= ^TwoDPtr;
+
+	{ Two-Dimensional Boolean Array }
 	TwoFArr		= ARRAY[1..80] OF ARRAY[1..80] OF Boolean;
 	TwoFPtr		= ^TwoFArr;
 	TwoFHndl	= ^TwoFPtr;
@@ -69,29 +73,29 @@ VAR
 	Junk1:		Size;
 	Junk2:		Size;
 	MidDummy:	Integer;
-	CntryNam:	NamArr;
-	Popln:		IntArr;
-	GNP:		IntArr;
-	GovtWing:	IntArr;
-	InsgWing:	IntArr;
+	CntryNam:	NamArr; { Country Name by Country array }
+	Popln:		IntArr; { Population by Country array }
+	GNP:		IntArr; { Gross National Product by Country array }
+	GovtWing:	IntArr; { Government Wing by Country array }
+	InsgWing:	IntArr; { Insurgency Wing by Country array }
 	GovtAid:	IntArr;
 	PrestVal:	IntArr;
 	ConsFrac:	IntArr;
 	MiltFrac:	IntArr;
 	InvtFrac:	IntArr;
 	ConsSpnd:	IntArr;
-	MiltSpnd:	IntArr;
+	MiltSpnd:	IntArr; { Military Spending by Country array }
 	InvtSpnd:	IntArr;
 	MilPowr:	IntArr;
-	MilMen:		IntArr;
-	DrafFrac:	IntArr;
-	DontMess:	IntArr;
+	MilMen:		IntArr; { Military Manpower by Country array }
+	DrafFrac:	IntArr; { Draft Fraction by Country array }
+	DontMess:	IntArr; { Don't Mess by Country array }
 	Maturity:	IntArr;
 	StrngRat:	IntArr;
-	CntryCol:	IntArr;
-	CntryRnd:	IntArr;
-	GovtStrg:	IntArr;
-	InsgStrg:	IntArr;
+	CntryCol:	IntArr; { Country Color by Country array }
+	CntryRnd:	IntArr; { Real (?) random number by Country array (between 0 and 1, 0 and 1 excluded) }
+	GovtStrg:	IntArr; { Government Strength by Country array }
+	InsgStrg:	IntArr; { Insurgency Strength by Country array }
 	InsgPowr:	IntArr;
 	DebgArr1:	IntArr;
 	DebgArr2:	IntArr;
