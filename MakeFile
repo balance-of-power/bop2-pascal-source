@@ -1,1 +1,58 @@
-GlobDebug=FALSE"{BOPO}"BOPSRace1 Ä "{BOPO}"BOP2.code "{BOPS}"NewResrc.r	rez "{BOPS}"NewResrc.r -o "DataFrame:BOP2_Ä:BOP2""{BOPO}"BOP2.code Ä "{BOPO}"Globals.p.o ¶					"{BOPO}"AsmCode.a.o ¶					"{BOPO}"Init.p.o ¶					"{BOPO}"Titles.p.o ¶					"{BOPO}"Background.p.o ¶					"{BOPO}"StdRoutines.p.o ¶					"{BOPO}"History.p.o ¶					"{BOPO}"PlanMove.p.o ¶					"{BOPO}"CrisisU.p.o ¶					"{BOPO}"Main.p.o	link "{Libraries}"Interface.o ¶	 	 "{Libraries}"Runtime.o ¶	 	 "{PLibraries}"Paslib.o ¶		 "{BOPO}"Globals.p.o ¶		 "{BOPO}"AsmCode.a.o ¶		 "{BOPO}"Init.p.o ¶		 "{BOPO}"Titles.p.o ¶		 "{BOPO}"Background.p.o ¶		 "{BOPO}"StdRoutines.p.o ¶		 "{BOPO}"History.p.o ¶		 "{BOPO}"PlanMove.p.o ¶		 "{BOPO}"CrisisU.p.o ¶		 "{BOPO}"Main.p.o ¶	 	 -o "{BOPO}"BOP2.code		 "{BOPO}"AsmCode.a.o Ä "{BOPS}"AsmCode.a		 	Asm -o "{BOPO}" "{BOPS}"AsmCode.a		"{BOPO}"Globals.p.o Ä "{BOPS}"Globals.p		 	Pascal -d DebugFlg={GlobDebug} -o "{BOPO}" "{BOPS}"Globals.p"{BOPO}"Init.p.o Ä "{BOPS}"Init.p "{BOPS}"Globals.p			 	Pascal -d DebugFlg={GlobDebug} -o "{BOPO}" "{BOPS}"Init.p"{BOPO}"Titles.p.o Ä "{BOPS}"Titles.p "{BOPS}"Globals.p			 	Pascal -d DebugFlg={GlobDebug} -o "{BOPO}" "{BOPS}"Titles.p"{BOPO}"Background.p.o Ä "{BOPS}"Background.p "{BOPS}"Globals.p			 	Pascal -d DebugFlg={GlobDebug} -o "{BOPO}" "{BOPS}"Background.p"{BOPO}"StdRoutines.p.o Ä "{BOPS}"StdRoutines.p "{BOPS}"Globals.p			 	Pascal -d DebugFlg={GlobDebug} -o "{BOPO}" "{BOPS}"StdRoutines.p"{BOPO}"History.p.o Ä "{BOPS}"History.p "{BOPS}"Globals.p			 	Pascal -d DebugFlg={GlobDebug} -o "{BOPO}" "{BOPS}"History.p"{BOPO}"PlanMove.p.o Ä "{BOPS}"PlanMove.p "{BOPS}"Globals.p			 	Pascal -d DebugFlg={GlobDebug} -o "{BOPO}" "{BOPS}"PlanMove.p"{BOPO}"CrisisU.p.o Ä "{BOPS}"CrisisU.p "{BOPS}"Globals.p			 	Pascal -d DebugFlg={GlobDebug} -o "{BOPO}" "{BOPS}"CrisisU.p"{BOPO}"Main.p.o Ä "{BOPS}"Main.p "{BOPS}"Globals.p		Pascal -d DebugFlg={GlobDebug} -o "{BOPO}" "{BOPS}"Main.p
+GlobDebug=FALSE 
+"{BOPO}"BOPSRace1 Ã„ "{BOPO}"BOP2.code "{BOPS}"NewResrc.r
+	rez "{BOPS}"NewResrc.r -o "DataFrame:BOP2_Ã„:BOP2"
+
+"{BOPO}"BOP2.code Ã„ "{BOPO}"Globals.p.o Â¶
+					"{BOPO}"AsmCode.a.o Â¶
+					"{BOPO}"Init.p.o Â¶
+					"{BOPO}"Titles.p.o Â¶
+					"{BOPO}"Background.p.o Â¶
+					"{BOPO}"StdRoutines.p.o Â¶
+					"{BOPO}"History.p.o Â¶
+					"{BOPO}"PlanMove.p.o Â¶
+					"{BOPO}"CrisisU.p.o Â¶
+					"{BOPO}"Main.p.o
+	link "{Libraries}"Interface.o Â¶
+	 	 "{Libraries}"Runtime.o Â¶
+	 	 "{PLibraries}"Paslib.o Â¶
+		 "{BOPO}"Globals.p.o Â¶
+		 "{BOPO}"AsmCode.a.o Â¶
+		 "{BOPO}"Init.p.o Â¶
+		 "{BOPO}"Titles.p.o Â¶
+		 "{BOPO}"Background.p.o Â¶
+		 "{BOPO}"StdRoutines.p.o Â¶
+		 "{BOPO}"History.p.o Â¶
+		 "{BOPO}"PlanMove.p.o Â¶
+		 "{BOPO}"CrisisU.p.o Â¶
+		 "{BOPO}"Main.p.o Â¶
+	 	 -o "{BOPO}"BOP2.code
+		 
+"{BOPO}"AsmCode.a.o Ã„ "{BOPS}"AsmCode.a		 
+	Asm -o "{BOPO}" "{BOPS}"AsmCode.a		
+
+"{BOPO}"Globals.p.o Ã„ "{BOPS}"Globals.p		 
+	Pascal -d DebugFlg={GlobDebug} -o "{BOPO}" "{BOPS}"Globals.p
+
+"{BOPO}"Init.p.o Ã„ "{BOPS}"Init.p "{BOPS}"Globals.p			 
+	Pascal -d DebugFlg={GlobDebug} -o "{BOPO}" "{BOPS}"Init.p
+
+"{BOPO}"Titles.p.o Ã„ "{BOPS}"Titles.p "{BOPS}"Globals.p			 
+	Pascal -d DebugFlg={GlobDebug} -o "{BOPO}" "{BOPS}"Titles.p
+
+"{BOPO}"Background.p.o Ã„ "{BOPS}"Background.p "{BOPS}"Globals.p			 
+	Pascal -d DebugFlg={GlobDebug} -o "{BOPO}" "{BOPS}"Background.p
+
+"{BOPO}"StdRoutines.p.o Ã„ "{BOPS}"StdRoutines.p "{BOPS}"Globals.p			 
+	Pascal -d DebugFlg={GlobDebug} -o "{BOPO}" "{BOPS}"StdRoutines.p
+
+"{BOPO}"History.p.o Ã„ "{BOPS}"History.p "{BOPS}"Globals.p			 
+	Pascal -d DebugFlg={GlobDebug} -o "{BOPO}" "{BOPS}"History.p
+
+"{BOPO}"PlanMove.p.o Ã„ "{BOPS}"PlanMove.p "{BOPS}"Globals.p			 
+	Pascal -d DebugFlg={GlobDebug} -o "{BOPO}" "{BOPS}"PlanMove.p
+
+"{BOPO}"CrisisU.p.o Ã„ "{BOPS}"CrisisU.p "{BOPS}"Globals.p			 
+	Pascal -d DebugFlg={GlobDebug} -o "{BOPO}" "{BOPS}"CrisisU.p
+
+"{BOPO}"Main.p.o Ã„ "{BOPS}"Main.p "{BOPS}"Globals.p	
+	Pascal -d DebugFlg={GlobDebug} -o "{BOPO}" "{BOPS}"Main.p
